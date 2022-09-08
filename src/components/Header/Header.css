@@ -1,6 +1,5 @@
 .section{
     background-color: white;
-    /* padding-bottom: 50px; */
     padding-top: 25px;
 }
 .ul{
@@ -22,4 +21,9 @@
 }
 .contactUs{
     border-right: 2px solid gray;
+}
+.navlogo{
+    height: 33.64px;
+    width: 35.15px;
+    transform: rotate(-8.57deg);
 }

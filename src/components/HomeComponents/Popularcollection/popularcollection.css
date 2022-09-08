@@ -1,0 +1,74 @@
+.popular-section{
+    background-color: #F3F7FD;
+    margin-top: 50px;
+    background-image: url(../../../Assets/HomeImages/Decoration.png);
+    margin-bottom: 50px;
+    background-size: 70%;
+}
+.popular-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-heading p{
+    height: 48px;
+    color: #0B213E;
+    font-family: Kartooni;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 48px;
+    font-weight: bold;
+}.popular-heading2{
+    height: 32px;
+    width: 221px;
+    color: #838383;
+    font-family: "Crushy Black";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    font-weight: 800;
+}
+.image-div{
+    background-color: white;
+    border-radius: 20px;
+   width: 80%;
+   margin-bottom: 20px;
+}
+.image-1{
+    padding-top: 25px;
+}
+.image-div p:nth-child(1){
+    padding-top: 20px;
+    height: 48px;
+  color: #0B213E;
+  font-family: "Crushy Black";
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 26px;
+  font-weight: 900;
+}
+.createdby{
+    justify-content: center;
+}
+.createdby span:nth-child(1){
+    height: 35px;
+    color: #babbbd;
+    font-family: "Crushy Black";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 900;
+}
+.createdby span:nth-child(2){
+    height: 35px;
+    color: #0B213E;
+    font-family: "Crushy Black";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 900;
+}
+.image-2{
+    padding-top: 25px;
+   
+}

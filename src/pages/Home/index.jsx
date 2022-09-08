@@ -1,8 +1,10 @@
 import React from "react";
 import "./Home.css";
-import starimage from "../../Assets/HomeImages/star.png";
-import monkeyimage from "../../Assets/HomeImages/monkey.webp";
+import monkeyimage from "../../Assets/HomeImages/monkey.png";
 import ExploreIcon from "@mui/icons-material/Explore";
+import Howitwork from "../../components/HomeComponents/HowItworks";
+import firstsectionimage from '../../Assets/HomeImages/Group4.png'
+import Popularcollection from "../../components/HomeComponents/Popularcollection";
 const Home = () => {
   return (
     <>
@@ -10,9 +12,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div>
-                <img className="starimage" src={starimage} alt=""></img>
-              </div>
+              
               <div className="content mt-5">
                 <p> A New way to Create Your Artworks.</p>
               </div>
@@ -25,7 +25,11 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-6"></div>
+            <div className="col-lg-6">
+                <div>
+                    <img className="firstsectionimage" src={firstsectionimage} alt=''></img>
+                </div>
+            </div>
           </div>
         </div>
       </section>
@@ -59,6 +63,12 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className="section3">
+        <Howitwork/>
+      </section>
+      <section className="section4">
+        <Popularcollection/>
       </section>
     </>
   );

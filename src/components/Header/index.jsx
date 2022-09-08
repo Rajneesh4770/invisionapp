@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
+import logo from '../../Assets/HomeImages/Logo.png';
 const Header = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Header = () => {
                 <ul className="navbar-nav   ul">
                 <li className="nav-item">
                   <a className="navbar-brand" href="#">
+                    <img className="navlogo" src={logo} alt=''></img>
                     NFT Genrator
                   </a>
                   </li>
