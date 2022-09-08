@@ -2,7 +2,8 @@
     margin-top: 25px;
     margin-bottom: 75px;
     background-image: url(../../Assets/HomeImages/Decoration.png);
-    background-size: 75%;
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 .content{
     padding-top: 125px;

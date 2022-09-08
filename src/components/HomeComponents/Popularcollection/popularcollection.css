@@ -3,7 +3,8 @@
     margin-top: 50px;
     background-image: url(../../../Assets/HomeImages/Decoration.png);
     margin-bottom: 50px;
-    background-size: 70%;
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 .popular-heading{
     display: flex;

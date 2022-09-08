@@ -5,6 +5,7 @@ import ExploreIcon from "@mui/icons-material/Explore";
 import Howitwork from "../../components/HomeComponents/HowItworks";
 import firstsectionimage from '../../Assets/HomeImages/Group4.png'
 import Popularcollection from "../../components/HomeComponents/Popularcollection";
+import EncourageCitizen from "../../components/HomeComponents/EncourageCitizen";
 const Home = () => {
   return (
     <>
@@ -69,6 +70,9 @@ const Home = () => {
       </section>
       <section className="section4">
         <Popularcollection/>
+      </section>
+      <section className="section5">
+        <EncourageCitizen/>
       </section>
     </>
   );
