@@ -1,0 +1,23 @@
+.section{
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.ul{
+    margin-left: auto;
+}
+.navbar li{
+    height: 20px;
+    width: 124px;
+    color: #000000;
+    font-family: "Crushy Black";
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+.contactUs{
+    border-right: 2px solid gray;
+}
