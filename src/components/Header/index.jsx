@@ -10,9 +10,13 @@ const Header = () => {
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg ">
                 <div className="container-fluid">
+                <ul className="navbar-nav   ul">
+                <li className="nav-item">
                   <a className="navbar-brand" href="#">
                     NFT Genrator
                   </a>
+                  </li>
+                  </ul>
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -28,7 +32,7 @@ const Header = () => {
                     className="collapse navbar-collapse"
                     id="navbarSupportedContent"
                   >
-                    <ul className="navbar-nav mb-4 mt-3 mb-lg-0 ul">
+                    <ul className="navbar-nav mb-4  ul">
                       <li className="nav-item">
                         <a
                           className="nav-link active"

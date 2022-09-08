@@ -1,5 +1,6 @@
 .section1{
     margin-top: 25px;
+    margin-bottom: 75px;
 }
 .content p{
     height: 148px;
@@ -23,4 +24,43 @@
 }
 .explorebtn{
     padding: 6px 25px 6px 25px;
+}
+.section2{
+    margin-top: 10px;
+    background-color: #F3F7FD;
+    margin-bottom: 25px;
+}
+.monkeyimage{
+    width: 100%;
+    border-radius: 16px;
+}
+.monkeyimagediv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.monkeycontent{
+    margin-top: 50px;
+    padding: 0px 10px 0px 50px;
+
+}
+
+.h2{
+    height: 112px;
+    width: 619px;
+    color: #2D200B;
+    font-family: "Crushy Black";
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 56px;
+    font-weight: bolder;
+}
+.monkeycontent p{
+    width: 572px;
+    opacity: 0.8;
+    color: #808080;
+    font-family: "Crushy Black";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+    font-weight: bolder;
 }

@@ -1,7 +1,6 @@
 .section{
     background-color: white;
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     padding-top: 25px;
 }
 .ul{
@@ -17,6 +16,9 @@
     letter-spacing: 0;
     line-height: 22px;
     text-align: center;
+}
+.navbar li :nth-child(1){
+    list-style: none;
 }
 .contactUs{
     border-right: 2px solid gray;
